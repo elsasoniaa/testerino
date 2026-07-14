@@ -60,3 +60,9 @@ Beneficios:
 Los NFTs son tokens no fungibles. Cada uno es único.
 
 En Base es muy barato mintear y transferir NFTs gracias a los bajos fees.
+
+### Qué es un Liquidity Pool
+
+Es un pool de fondos que permite hacer swaps en DEXs.
+
+Al proporcionar liquidez recibes fees de las transacciones, pero también tienes riesgo de impermanent loss.
