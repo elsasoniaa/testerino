@@ -45,3 +45,12 @@ Son baratos y esenciales para construir dApps reactivas.
 - Hardhat → Para proyectos serios
 - Foundry → Muy rápido para testing
 - Ethers.js / Viem → Para frontend
+
+- ### Importancia de verificar contratos
+
+Verificar el código en Blockscout permite que cualquiera pueda leerlo y auditarlo.
+
+Beneficios:
+- Transparencia
+- Mayor confianza de los usuarios
+- Buena práctica profesional
