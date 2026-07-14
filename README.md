@@ -66,3 +66,10 @@ En Base es muy barato mintear y transferir NFTs gracias a los bajos fees.
 Es un pool de fondos que permite hacer swaps en DEXs.
 
 Al proporcionar liquidez recibes fees de las transacciones, pero también tienes riesgo de impermanent loss.
+
+### Custodial vs Non-custodial wallets
+
+- Custodial: La plataforma guarda tus claves (ej. algunos exchanges)
+- Non-custodial: Tú controlas tus claves (MetaMask, Coinbase Wallet, etc.)
+
+En crypto se recomienda siempre non-custodial.
