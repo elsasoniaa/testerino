@@ -15,3 +15,11 @@ Un "Hello Base" on-chain:
 - Contrato que guarda un mensaje
 - Frontend simple para leer y actualizar el mensaje
 - Desplegarlo en Base como primer experimento
+
+### Stablecoins más usadas en Base
+
+- USDC (nativo y muy líquido)
+- USDT
+- DAI
+
+Son ideales para trading, pagos o evitar volatilidad mientras se aprende.
