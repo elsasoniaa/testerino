@@ -38,3 +38,10 @@ Características básicas:
 Los eventos permiten que el frontend sepa cuándo pasa algo en el contrato (ej: un mint, un swap, un cambio de estado).
 
 Son baratos y esenciales para construir dApps reactivas.
+
+### Herramientas de desarrollo útiles
+
+- Remix IDE → Para pruebas rápidas
+- Hardhat → Para proyectos serios
+- Foundry → Muy rápido para testing
+- Ethers.js / Viem → Para frontend
