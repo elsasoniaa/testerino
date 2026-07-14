@@ -23,3 +23,12 @@ Un "Hello Base" on-chain:
 - DAI
 
 Son ideales para trading, pagos o evitar volatilidad mientras se aprende.
+
+### Primera aproximación a Solidity
+
+Solidity es el lenguaje principal para escribir contratos inteligentes en Base.
+
+Características básicas:
+- Similar a JavaScript en sintaxis
+- Es fuertemente tipado
+- Se compila a bytecode para la EVM
