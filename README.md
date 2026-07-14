@@ -54,3 +54,9 @@ Beneficios:
 - Transparencia
 - Mayor confianza de los usuarios
 - Buena práctica profesional
+
+### Introducción a los NFTs (ERC-721)
+
+Los NFTs son tokens no fungibles. Cada uno es único.
+
+En Base es muy barato mintear y transferir NFTs gracias a los bajos fees.
