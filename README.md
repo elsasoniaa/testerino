@@ -32,3 +32,9 @@ Características básicas:
 - Similar a JavaScript en sintaxis
 - Es fuertemente tipado
 - Se compila a bytecode para la EVM
+
+### Importancia de los eventos en contratos
+
+Los eventos permiten que el frontend sepa cuándo pasa algo en el contrato (ej: un mint, un swap, un cambio de estado).
+
+Son baratos y esenciales para construir dApps reactivas.
