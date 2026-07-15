@@ -80,3 +80,25 @@ Crear una colección de "Builder Badges":
 - Cada badge representa un nivel de aprendizaje
 - Se mintean al completar hitos
 - Todo on-chain en Base
+
+- ### Contrato Counter simple (primer experimento)
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Counter {
+    uint256 public count = 0;
+
+    function increment() public {
+        count += 1;
+    }
+
+    function decrement() public {
+        count -= 1;
+    }
+
+    function reset() public {
+        count = 0;
+    }
+}
