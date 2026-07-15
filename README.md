@@ -151,3 +151,14 @@ Añadir:
 - Contador por usuario
 
 Esto lo haría más útil como proyecto de práctica.
+
+### Frontend básico para SimpleStorage
+
+```html
+<input id="input" placeholder="Nuevo mensaje" />
+<button onclick="setData()">Guardar</button>
+<p id="display"></p>
+
+<script>
+  // Conectar wallet y llamar setData / getData
+</script>
