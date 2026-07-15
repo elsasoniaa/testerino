@@ -178,3 +178,15 @@ Usando Hardhat:
 
 ```bash
 npx hardhat verify --network base <contract_address> <constructor_args>
+
+### Frontend con botón de stake
+
+```html
+<button onclick="stakeTokens()">Stake Tokens</button>
+
+<script>
+async function stakeTokens() {
+  const amount = document.getElementById("amount").value;
+  await contract.stake(ethers.utils.parseEther(amount));
+}
+</script>
