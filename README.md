@@ -171,3 +171,10 @@ const signer = provider.getSigner();
 const contract = new ethers.Contract(address, abi, signer);
 
 await contract.register(); // Llamada al contrato
+
+### Script para verificar contrato en Blockscout
+
+Usando Hardhat:
+
+```bash
+npx hardhat verify --network base <contract_address> <constructor_args>
