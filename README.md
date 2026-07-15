@@ -190,3 +190,17 @@ async function stakeTokens() {
   await contract.stake(ethers.utils.parseEther(amount));
 }
 </script>
+### Script para deploy en diferentes redes
+
+```javascript
+// hardhat.config.js ejemplo
+networks: {
+  base: {
+    url: "https://mainnet.base.org",
+    accounts: [privateKey]
+  },
+  baseSepolia: { // testnet
+    url: "https://sepolia.base.org",
+    accounts: [privateKey]
+  }
+}
