@@ -204,3 +204,14 @@ networks: {
     accounts: [privateKey]
   }
 }
+### Frontend mostrando balance
+
+```html
+<p>Tu balance: <span id="balance">0</span> ETH</p>
+
+<script>
+async function updateBalance() {
+  const balance = await provider.getBalance(address);
+  document.getElementById("balance").innerText = ethers.utils.formatEther(balance);
+}
+</script>
