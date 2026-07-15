@@ -73,3 +73,10 @@ Al proporcionar liquidez recibes fees de las transacciones, pero también tienes
 - Non-custodial: Tú controlas tus claves (MetaMask, Coinbase Wallet, etc.)
 
 En crypto se recomienda siempre non-custodial.
+
+### Idea de proyecto NFT simple
+
+Crear una colección de "Builder Badges":
+- Cada badge representa un nivel de aprendizaje
+- Se mintean al completar hitos
+- Todo on-chain en Base
