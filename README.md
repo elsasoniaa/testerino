@@ -162,3 +162,12 @@ Esto lo haría más útil como proyecto de práctica.
 <script>
   // Conectar wallet y llamar setData / getData
 </script>
+### Ejemplo de conexión con ethers.js
+
+```javascript
+const provider = new ethers.providers.Web3Provider(window.ethereum);
+const signer = provider.getSigner();
+
+const contract = new ethers.Contract(address, abi, signer);
+
+await contract.register(); // Llamada al contrato
