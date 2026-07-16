@@ -244,3 +244,10 @@ async function connectWallet() {
   }
 }
 </script>
+
+### Mostrar estado de transacción en frontend
+
+```javascript
+const tx = await contract.increment();
+await tx.wait(); // espera confirmación
+console.log("Transacción confirmada en Base");
