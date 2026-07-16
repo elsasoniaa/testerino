@@ -251,3 +251,14 @@ async function connectWallet() {
 const tx = await contract.increment();
 await tx.wait(); // espera confirmación
 console.log("Transacción confirmada en Base");
+
+### Error handling en frontend
+
+```javascript
+try {
+  const tx = await contract.functionCall();
+  await tx.wait();
+} catch (error) {
+  console.error("Error en Base:", error.message);
+  alert("Transacción fallida. Revisa el gas o permisos.");
+}
