@@ -215,3 +215,18 @@ async function updateBalance() {
   document.getElementById("balance").innerText = ethers.utils.formatEther(balance);
 }
 </script>
+
+### Frontend con estado de loading
+
+```html
+<button onclick="sendTx()" id="btn">Enviar</button>
+
+<script>
+async function sendTx() {
+  document.getElementById("btn").disabled = true;
+  document.getElementById("btn").innerText = "Procesando...";
+  // await transaction
+  document.getElementById("btn").disabled = false;
+  document.getElementById("btn").innerText = "Enviar";
+}
+</script>
