@@ -230,3 +230,17 @@ async function sendTx() {
   document.getElementById("btn").innerText = "Enviar";
 }
 </script>
+
+### Botón de conexión de wallet mejorado
+
+```html
+<button onclick="connectWallet()">Connect Wallet</button>
+
+<script>
+async function connectWallet() {
+  if (window.ethereum) {
+    await window.ethereum.request({ method: 'eth_requestAccounts' });
+    // actualizar UI
+  }
+}
+</script>
