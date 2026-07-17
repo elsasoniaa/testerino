@@ -312,3 +312,14 @@ const tx = await signer.sendTransaction({
   to: contract.address,
   data: // encoded batch
 });
+
+### Frontend para entrar en raffle
+
+```html
+<button onclick="enterRaffle()">Participar (0.01 ETH)</button>
+
+<script>
+async function enterRaffle() {
+  await contract.enter({ value: ethers.utils.parseEther("0.01") });
+}
+</script>
