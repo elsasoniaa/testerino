@@ -339,3 +339,12 @@ document.getElementById("cooldown").innerText = timeLeft > 0 ? `${timeLeft}s` : 
 
 ```javascript
 const signature = await signer.signMessage("Firma esta acción...");
+
+### Frontend para solicitar random
+
+```javascript
+async function getRandomNumber() {
+  const tx = await contract.requestRandomWords();
+  await tx.wait();
+  // esperar callback del oráculo
+}
