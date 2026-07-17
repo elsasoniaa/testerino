@@ -393,3 +393,8 @@ async function burnTokens() {
 
 ```html
 <p>Reflection rate: <span id="rate">10</span>% por transacción</p>
+
+### Warning de max wallet en frontend
+
+```html
+<p id="warning" style="color:red; display:none;">Exceeds max wallet limit!</p>
