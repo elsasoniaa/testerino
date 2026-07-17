@@ -329,3 +329,8 @@ async function enterRaffle() {
 ```html
 <p>Tu link de referral: <span id="link">https://.../ref=0x...</span></p>
 <button onclick="copyLink()">Copiar</button>
+### Mostrar cooldown en frontend
+
+```javascript
+const timeLeft = lastAction + cooldown - Date.now()/1000;
+document.getElementById("cooldown").innerText = timeLeft > 0 ? `${timeLeft}s` : "Ready";
