@@ -334,3 +334,8 @@ async function enterRaffle() {
 ```javascript
 const timeLeft = lastAction + cooldown - Date.now()/1000;
 document.getElementById("cooldown").innerText = timeLeft > 0 ? `${timeLeft}s` : "Ready";
+
+### Solicitud de firma desde frontend
+
+```javascript
+const signature = await signer.signMessage("Firma esta acción...");
