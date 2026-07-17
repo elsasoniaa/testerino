@@ -323,3 +323,9 @@ async function enterRaffle() {
   await contract.enter({ value: ethers.utils.parseEther("0.01") });
 }
 </script>
+
+### Frontend con sistema de referral
+
+```html
+<p>Tu link de referral: <span id="link">https://.../ref=0x...</span></p>
+<button onclick="copyLink()">Copiar</button>
