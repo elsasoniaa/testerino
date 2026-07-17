@@ -273,3 +273,12 @@ async function loadNumbers() {
     // mostrar en UI
   }
 }
+
+### Múltiples llamadas a contratos
+
+```javascript
+const [balance, count, status] = await Promise.all([
+  contract.balanceOf(address),
+  counter.count(),
+  anotherContract.status()
+]);
