@@ -378,3 +378,13 @@ function calculateReceived(amount) {
   document.getElementById("received").innerText = amount - tax;
 }
 </script>
+### Botón de burn en frontend
+
+```html
+<button onclick="burnTokens()">Burn Tokens</button>
+
+<script>
+async function burnTokens() {
+  await contract.burn(amount);
+}
+</script>
