@@ -365,3 +365,16 @@ async function updatePrice() {
 <script>
 const maxSlippage = document.getElementById("slippage").value;
 </script>
+
+### Mostrar tax en frontend
+
+```html
+<p>Tax on transfer: 5%</p>
+<p>Amount received: <span id="received"></span></p>
+
+<script>
+function calculateReceived(amount) {
+  const tax = amount * 0.05;
+  document.getElementById("received").innerText = amount - tax;
+}
+</script>
