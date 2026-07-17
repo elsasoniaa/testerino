@@ -299,3 +299,16 @@ function withdraw() public {
     balances[msg.sender] = 0; // reentrancy protection
     payable(msg.sender).transfer(amount);
 }
+
+### Llamadas en batch desde frontend
+
+```javascript
+const calls = [
+  contract.populateTransaction.increment(),
+  contract.populateTransaction.increment()
+];
+
+const tx = await signer.sendTransaction({
+  to: contract.address,
+  data: // encoded batch
+});
