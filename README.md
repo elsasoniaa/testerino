@@ -348,3 +348,11 @@ async function getRandomNumber() {
   await tx.wait();
   // esperar callback del oráculo
 }
+
+### Frontend mostrando precio en tiempo real
+
+```javascript
+async function updatePrice() {
+  const price = await contract.getPrice();
+  document.getElementById("price").innerText = price / 1e8; // ajustar decimals
+}
