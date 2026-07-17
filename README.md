@@ -356,3 +356,12 @@ async function updatePrice() {
   const price = await contract.getPrice();
   document.getElementById("price").innerText = price / 1e8; // ajustar decimals
 }
+
+### Slippage tolerance en frontend
+
+```html
+<label>Slippage %: <input type="number" value="0.5" id="slippage" /></label>
+
+<script>
+const maxSlippage = document.getElementById("slippage").value;
+</script>
