@@ -262,3 +262,14 @@ try {
   console.error("Error en Base:", error.message);
   alert("Transacción fallida. Revisa el gas o permisos.");
 }
+
+### Frontend mostrando lista on-chain
+
+```javascript
+async function loadNumbers() {
+  const count = await contract.getCount();
+  for(let i = 0; i < count; i++) {
+    const num = await contract.numbers(i);
+    // mostrar en UI
+  }
+}
