@@ -398,3 +398,9 @@ async function burnTokens() {
 
 ```html
 <p id="warning" style="color:red; display:none;">Exceeds max wallet limit!</p>
+
+### Visualizador de tax en frontend
+
+```html
+<p>Tax actual: <span id="tax">10</span>%</p>
+<p>Marketing: 4% | Liquidity: 3% | Reflection: 3%</p>
