@@ -388,3 +388,8 @@ async function burnTokens() {
   await contract.burn(amount);
 }
 </script>
+
+### Mostrar reflection en frontend
+
+```html
+<p>Reflection rate: <span id="rate">10</span>% por transacción</p>
