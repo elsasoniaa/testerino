@@ -282,3 +282,9 @@ const [balance, count, status] = await Promise.all([
   counter.count(),
   anotherContract.status()
 ]);
+
+### Llamando múltiples contratos desde frontend
+
+```javascript
+const usdcBalance = await usdcContract.balanceOf(address);
+const counterValue = await counterContract.count();
