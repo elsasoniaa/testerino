@@ -422,3 +422,10 @@ async function burnTokens() {
 if (await contract.isBlacklisted(address)) {
   alert("Tu dirección está en blacklist");
 }
+
+### Selector de snapshot en frontend
+
+```html
+<select id="snapshotId">
+  <option value="1">Snapshot 1</option>
+</select>
