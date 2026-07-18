@@ -429,3 +429,7 @@ if (await contract.isBlacklisted(address)) {
 <select id="snapshotId">
   <option value="1">Snapshot 1</option>
 </select>
+
+### Generación y envío de proof en frontend
+
+Usando librerías como merkletreejs para generar la proof y enviarla al contrato.
