@@ -409,3 +409,9 @@ async function burnTokens() {
 
 ```html
 <button onclick="triggerBuyback()">Trigger Buyback</button>
+
+### Sección charity en frontend
+
+```html
+<p>Charity Wallet: <a href="https://base.blockscout.com/address/0x...">0x...</a></p>
+<p>Total donado: <span id="donated">0</span> ETH</p>
