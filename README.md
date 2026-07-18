@@ -442,3 +442,11 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 ### Warning sobre contratos upgradeables en frontend
 
 "Este contrato es upgradeable. El owner puede cambiar la lógica en el futuro."
+
+### Selector de chain destino en frontend
+
+```html
+<select id="targetChain">
+  <option value="ethereum">Ethereum</option>
+  <option value="arbitrum">Arbitrum</option>
+</select>
