@@ -472,3 +472,10 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 ```html
 <input type="number" id="amount" placeholder="Cantidad flash loan" />
 <button onclick="executeFlashLoan()">Ejecutar</button>
+
+### Interfaz supply/borrow
+
+```html
+<button onclick="supplyTokens()">Supply</button>
+<button onclick="borrowTokens()">Borrow</button>
+<p>Collateral: <span id="collateral">0</span></p>
