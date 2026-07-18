@@ -466,3 +466,9 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
   <option value="6">6 meses</option>
 </select>
 <button onclick="lockTokens()">Lock</button>
+
+### Interfaz de flash loan
+
+```html
+<input type="number" id="amount" placeholder="Cantidad flash loan" />
+<button onclick="executeFlashLoan()">Ejecutar</button>
