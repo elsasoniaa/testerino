@@ -433,3 +433,8 @@ if (await contract.isBlacklisted(address)) {
 ### Generación y envío de proof en frontend
 
 Usando librerías como merkletreejs para generar la proof y enviarla al contrato.
+
+### Mostrar royalties en frontend
+
+```html
+<p>Royalty: 5% al creador en cada venta secundaria</p>
