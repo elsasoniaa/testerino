@@ -450,3 +450,9 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
   <option value="ethereum">Ethereum</option>
   <option value="arbitrum">Arbitrum</option>
 </select>
+
+### Creación de propuesta en frontend
+
+```html
+<textarea id="description" placeholder="Descripción de la propuesta"></textarea>
+<button onclick="createProposal()">Crear Propuesta</button>
