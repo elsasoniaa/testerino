@@ -415,3 +415,10 @@ async function burnTokens() {
 ```html
 <p>Charity Wallet: <a href="https://base.blockscout.com/address/0x...">0x...</a></p>
 <p>Total donado: <span id="donated">0</span> ETH</p>
+
+### Warning de blacklist en frontend
+
+```javascript
+if (await contract.isBlacklisted(address)) {
+  alert("Tu dirección está en blacklist");
+}
