@@ -404,3 +404,8 @@ async function burnTokens() {
 ```html
 <p>Tax actual: <span id="tax">10</span>%</p>
 <p>Marketing: 4% | Liquidity: 3% | Reflection: 3%</p>
+
+### Botón de buyback en frontend
+
+```html
+<button onclick="triggerBuyback()">Trigger Buyback</button>
