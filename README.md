@@ -497,3 +497,8 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 <button onclick="voteNo()">No</button>
 <p>Pool Yes: <span id="yes">0</span></p>
 
+### Interfaz de compra de insurance
+
+```html
+<input type="number" placeholder="Cobertura deseada" />
+<button onclick="buyCoverage()">Comprar Protección</button>
