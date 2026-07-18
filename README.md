@@ -489,3 +489,11 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 </select>
 <input type="number" placeholder="Strike Price" />
 <button onclick="buyOption()">Comprar Option</button>
+
+### Interfaz de predicción
+
+```html
+<button onclick="voteYes()">Sí</button>
+<button onclick="voteNo()">No</button>
+<p>Pool Yes: <span id="yes">0</span></p>
+
