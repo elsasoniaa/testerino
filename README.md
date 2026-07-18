@@ -502,3 +502,9 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 ```html
 <input type="number" placeholder="Cobertura deseada" />
 <button onclick="buyCoverage()">Comprar Protección</button>
+
+### Botón de harvest
+
+```html
+<button onclick="harvestRewards()">Harvest & Reinvest</button>
+<p>Pending rewards: <span id="pending">0</span></p>
