@@ -438,3 +438,7 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 
 ```html
 <p>Royalty: 5% al creador en cada venta secundaria</p>
+
+### Warning sobre contratos upgradeables en frontend
+
+"Este contrato es upgradeable. El owner puede cambiar la lógica en el futuro."
