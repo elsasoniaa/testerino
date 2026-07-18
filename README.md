@@ -479,3 +479,13 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 <button onclick="supplyTokens()">Supply</button>
 <button onclick="borrowTokens()">Borrow</button>
 <p>Collateral: <span id="collateral">0</span></p>
+
+### Interfaz de options
+
+```html
+<select id="type">
+  <option value="call">Call</option>
+  <option value="put">Put</option>
+</select>
+<input type="number" placeholder="Strike Price" />
+<button onclick="buyOption()">Comprar Option</button>
