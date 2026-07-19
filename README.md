@@ -529,3 +529,10 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 <input id="name" placeholder="Nombre" />
 <textarea id="status" placeholder="Estado"></textarea>
 <button onclick="updateProfile()">Actualizar</button>
+
+### Estadísticas de referral en frontend
+
+```html
+<p>Referidos directos: <span id="direct">0</span></p>
+<p>Recompensas pendientes: <span id="rewards">0</span></p>
+<button onclick="claimRewards()">Reclamar</button>
