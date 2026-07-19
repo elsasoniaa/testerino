@@ -556,3 +556,11 @@ Pasos:
 <ul id="milestones">
   <!-- populated dynamically -->
 </ul>
+
+### Timer de subasta en frontend
+
+```javascript
+setInterval(() => {
+  const timeLeft = endTime - Date.now();
+  // actualizar UI
+}, 1000);
