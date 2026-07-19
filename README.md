@@ -589,3 +589,10 @@ setInterval(() => {
   <!-- NFTs del usuario -->
 </div>
 <button onclick="levelUpItem()">Level Up</button>
+
+### Tabla de leaderboard
+
+```html
+<table id="leaderboard">
+  <tr><th>Rank</th><th>Player</th><th>Score</th></tr>
+</table>
