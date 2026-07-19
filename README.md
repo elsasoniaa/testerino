@@ -536,3 +536,9 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 <p>Referidos directos: <span id="direct">0</span></p>
 <p>Recompensas pendientes: <span id="rewards">0</span></p>
 <button onclick="claimRewards()">Reclamar</button>
+
+### Visualizador de NFT dinámico
+
+```html
+<img id="nftImage" src="" />
+<button onclick="updateNFT()">Evolucionar NFT</button>
