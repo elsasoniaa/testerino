@@ -542,3 +542,10 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 ```html
 <img id="nftImage" src="" />
 <button onclick="updateNFT()">Evolucionar NFT</button>
+
+### Flujo de escrow en frontend
+
+Pasos:
+1. Depositar fondos
+2. Confirmar entrega
+3. Liberar o dispute
