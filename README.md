@@ -564,3 +564,8 @@ setInterval(() => {
   const timeLeft = endTime - Date.now();
   // actualizar UI
 }, 1000);
+
+### Mostrar APY en frontend
+
+```html
+<p>Supply APY: <span id="apy">12.5</span>%</p>
