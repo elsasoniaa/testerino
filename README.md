@@ -569,3 +569,10 @@ setInterval(() => {
 
 ```html
 <p>Supply APY: <span id="apy">12.5</span>%</p>
+
+### Compra de fracciones en frontend
+
+```html
+<input type="number" placeholder="Cantidad de shares" />
+<button onclick="buyFraction()">Comprar Fracción</button>
+
