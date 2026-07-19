@@ -576,3 +576,8 @@ setInterval(() => {
 <input type="number" placeholder="Cantidad de shares" />
 <button onclick="buyFraction()">Comprar Fracción</button>
 
+### Dashboard DAO en frontend
+
+- Balance del treasury
+- Propuestas activas
+- Votos del usuario
