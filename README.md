@@ -522,3 +522,10 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 - Trading con leverage
 - Funding rate automático
 - Bajos fees gracias a Base
+
+### Actualización de perfil en frontend
+
+```html
+<input id="name" placeholder="Nombre" />
+<textarea id="status" placeholder="Estado"></textarea>
+<button onclick="updateProfile()">Actualizar</button>
