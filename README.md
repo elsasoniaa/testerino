@@ -515,3 +515,10 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 <button onclick="openLong()">Long</button>
 <button onclick="openShort()">Short</button>
 <input type="number" placeholder="Leverage (x10)" />
+
+### Idea de proyecto perpetuals
+
+"Base Perps DEX":
+- Trading con leverage
+- Funding rate automático
+- Bajos fees gracias a Base
