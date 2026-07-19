@@ -549,3 +549,10 @@ Pasos:
 1. Depositar fondos
 2. Confirmar entrega
 3. Liberar o dispute
+
+### Tracker de milestones
+
+```html
+<ul id="milestones">
+  <!-- populated dynamically -->
+</ul>
