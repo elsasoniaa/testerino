@@ -581,3 +581,11 @@ setInterval(() => {
 - Balance del treasury
 - Propuestas activas
 - Votos del usuario
+
+### Inventory en frontend
+
+```html
+<div id="inventory">
+  <!-- NFTs del usuario -->
+</div>
+<button onclick="levelUpItem()">Level Up</button>
