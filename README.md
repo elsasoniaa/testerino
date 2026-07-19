@@ -508,3 +508,10 @@ Usando librerías como merkletreejs para generar la proof y enviarla al contrato
 ```html
 <button onclick="harvestRewards()">Harvest & Reinvest</button>
 <p>Pending rewards: <span id="pending">0</span></p>
+
+### Interfaz long/short
+
+```html
+<button onclick="openLong()">Long</button>
+<button onclick="openShort()">Short</button>
+<input type="number" placeholder="Leverage (x10)" />
