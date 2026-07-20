@@ -596,3 +596,9 @@ setInterval(() => {
 <table id="leaderboard">
   <tr><th>Rank</th><th>Player</th><th>Score</th></tr>
 </table>
+
+### Mostrar resultado aleatorio en frontend
+
+```html
+<button onclick="getRandom()">Generar Random</button>
+<p>Resultado: <span id="result"></span></p>
