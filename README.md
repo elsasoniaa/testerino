@@ -602,3 +602,11 @@ setInterval(() => {
 ```html
 <button onclick="getRandom()">Generar Random</button>
 <p>Resultado: <span id="result"></span></p>
+
+### Barra de progreso de vesting
+
+```html
+<div class="progress">
+  <div class="bar" style="width: 45%"></div>
+</div>
+<p>Tokens liberados: 45%</p>
