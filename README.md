@@ -633,3 +633,9 @@ setInterval(() => {
 ```html
 <p>Recompensas pendientes: <span id="pendingRewards">0</span></p>
 <button onclick="claimRewards()">Claim</button>
+
+### Dashboard de referrals
+
+```html
+<p>Referidos directos: <span id="direct">12</span></p>
+<p>Recompensas totales: <span id="rewards">340</span> tokens</p>
