@@ -610,3 +610,9 @@ setInterval(() => {
   <div class="bar" style="width: 45%"></div>
 </div>
 <p>Tokens liberados: 45%</p>
+
+### Botón de claim en frontend
+
+```html
+<button onclick="claimRewards()">Claim Rewards</button>
+<p>Pending: <span id="pending">0</span></p>
