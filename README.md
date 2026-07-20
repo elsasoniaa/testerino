@@ -639,3 +639,10 @@ setInterval(() => {
 ```html
 <p>Referidos directos: <span id="direct">12</span></p>
 <p>Recompensas totales: <span id="rewards">340</span> tokens</p>
+
+### Interfaz deposit/withdraw
+
+```html
+<input type="number" id="amount" placeholder="Cantidad" />
+<button onclick="deposit()">Deposit</button>
+<button onclick="withdraw()">Withdraw</button>
