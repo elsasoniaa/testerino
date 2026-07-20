@@ -668,3 +668,8 @@ setInterval(() => {
 
 ```html
 <p>Lock until: <span id="lockTime"></span></p>
+
+### Mostrar boost en frontend
+
+```html
+<p>Tu boost actual: <span id="boost">1.5x</span></p>
