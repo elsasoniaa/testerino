@@ -693,3 +693,13 @@ setInterval(() => {
 <div id="badges">
   <!-- NFTs soulbound del usuario -->
 </div>
+
+### Gestión de roles en frontend
+
+```html
+<input id="address" placeholder="Dirección" />
+<select id="role">
+  <option value="ADMIN">Admin</option>
+  <option value="OPERATOR">Operator</option>
+</select>
+<button onclick="grantRole()">Grant Role</button>
