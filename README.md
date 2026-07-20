@@ -646,3 +646,9 @@ setInterval(() => {
 <input type="number" id="amount" placeholder="Cantidad" />
 <button onclick="deposit()">Deposit</button>
 <button onclick="withdraw()">Withdraw</button>
+
+### Desglose de fees en frontend
+
+```html
+<p>Fee: 2%</p>
+<p>Treasury: 1% | Rewards: 1%</p>
