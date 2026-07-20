@@ -673,3 +673,9 @@ setInterval(() => {
 
 ```html
 <p>Tu boost actual: <span id="boost">1.5x</span></p>
+
+### Interfaz de staking de NFTs
+
+```html
+<button onclick="stakeSelectedNFTs()">Stake NFTs</button>
+<div id="stakedNFTs"></div>
