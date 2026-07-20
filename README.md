@@ -663,3 +663,8 @@ setInterval(() => {
 
 ```html
 <button onclick="compoundRewards()">Compound Rewards</button>
+
+### Timer de lock en frontend
+
+```html
+<p>Lock until: <span id="lockTime"></span></p>
