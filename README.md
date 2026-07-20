@@ -621,3 +621,9 @@ setInterval(() => {
 
 ```html
 <p id="status">Contract Status: <span id="pausedStatus">Active</span></p>
+
+### Botón Withdraw All en frontend
+
+```html
+<button onclick="withdrawAll()">Retirar Todo</button>
+<p>Balance disponible: <span id="balance">0</span></p>
