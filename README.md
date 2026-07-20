@@ -627,3 +627,9 @@ setInterval(() => {
 ```html
 <button onclick="withdrawAll()">Retirar Todo</button>
 <p>Balance disponible: <span id="balance">0</span></p>
+
+### Pending Rewards en frontend
+
+```html
+<p>Recompensas pendientes: <span id="pendingRewards">0</span></p>
+<button onclick="claimRewards()">Claim</button>
