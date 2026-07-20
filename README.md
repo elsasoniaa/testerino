@@ -616,3 +616,8 @@ setInterval(() => {
 ```html
 <button onclick="claimRewards()">Claim Rewards</button>
 <p>Pending: <span id="pending">0</span></p>
+
+### Mostrar estado paused en frontend
+
+```html
+<p id="status">Contract Status: <span id="pausedStatus">Active</span></p>
