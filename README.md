@@ -679,3 +679,10 @@ setInterval(() => {
 ```html
 <button onclick="stakeSelectedNFTs()">Stake NFTs</button>
 <div id="stakedNFTs"></div>
+
+### Mostrar Soulbound en frontend
+
+```html
+<div id="badges">
+  <!-- NFTs soulbound del usuario -->
+</div>
