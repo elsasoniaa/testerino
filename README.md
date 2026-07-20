@@ -658,3 +658,8 @@ setInterval(() => {
 ```html
 <button onclick="harvestRewards()">Harvest Rewards</button>
 <p>Pending: <span id="pending">0</span></p>
+
+### Botón Compound en frontend
+
+```html
+<button onclick="compoundRewards()">Compound Rewards</button>
