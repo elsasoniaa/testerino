@@ -686,3 +686,10 @@ setInterval(() => {
 <div id="badges">
   <!-- NFTs soulbound del usuario -->
 </div>
+
+### Mostrar Soulbound en frontend
+
+```html
+<div id="badges">
+  <!-- NFTs soulbound del usuario -->
+</div>
