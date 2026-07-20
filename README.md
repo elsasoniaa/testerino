@@ -652,3 +652,9 @@ setInterval(() => {
 ```html
 <p>Fee: 2%</p>
 <p>Treasury: 1% | Rewards: 1%</p>
+
+### Botón Harvest en frontend
+
+```html
+<button onclick="harvestRewards()">Harvest Rewards</button>
+<p>Pending: <span id="pending">0</span></p>
