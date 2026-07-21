@@ -715,3 +715,12 @@ setInterval(() => {
 <div id="soulboundBadges">
   <!-- mostrar NFTs no transferibles del usuario -->
 </div>
+
+### Selector de cadena destino
+
+```html
+<select id="targetChain">
+  <option value="8453">Base</option>
+  <option value="1">Ethereum</option>
+</select>
+<button onclick="sendCrossChain()">Enviar</button>
