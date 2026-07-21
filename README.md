@@ -754,3 +754,13 @@ setInterval(() => {
 <table>
   <tr><th>Rank</th><th>Player</th><th>Score</th></tr>
 </table>
+
+
+
+### Lista de quests en frontend
+
+```html
+<div id="quests">
+  <!-- lista dinámica de quests -->
+</div>
+
