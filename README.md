@@ -724,3 +724,9 @@ setInterval(() => {
   <option value="1">Ethereum</option>
 </select>
 <button onclick="sendCrossChain()">Enviar</button>
+
+### Creación de propuesta en frontend
+
+```html
+<textarea id="description" placeholder="Descripción de la propuesta"></textarea>
+<button onclick="createProposal()">Crear Propuesta</button>
