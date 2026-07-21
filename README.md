@@ -747,3 +747,10 @@ setInterval(() => {
 ```html
 <p>Tus puntos: <span id="points">0</span></p>
 <button onclick="redeem()">Redeem</button>
+
+### Tabla de leaderboard en frontend
+
+```html
+<table>
+  <tr><th>Rank</th><th>Player</th><th>Score</th></tr>
+</table>
