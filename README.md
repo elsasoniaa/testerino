@@ -708,3 +708,10 @@ setInterval(() => {
 
 ```html
 <p>⚠️ Este contrato es upgradeable. La lógica puede cambiar en el futuro.</p>
+
+### Visualización de badges soulbound
+
+```html
+<div id="soulboundBadges">
+  <!-- mostrar NFTs no transferibles del usuario -->
+</div>
