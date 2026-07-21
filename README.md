@@ -736,3 +736,8 @@ setInterval(() => {
 ```html
 <button onclick="claimRevenue()">Claim Revenue</button>
 <p>Tu share: <span id="share">0</span>%</p>
+
+### Botón de claim airdrop
+
+```html
+<button onclick="claimAirdrop()">Claim Airdrop</button>
