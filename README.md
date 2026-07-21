@@ -741,3 +741,9 @@ setInterval(() => {
 
 ```html
 <button onclick="claimAirdrop()">Claim Airdrop</button>
+
+### Visualización de puntos en frontend
+
+```html
+<p>Tus puntos: <span id="points">0</span></p>
+<button onclick="redeem()">Redeem</button>
