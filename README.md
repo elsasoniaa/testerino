@@ -703,3 +703,8 @@ setInterval(() => {
   <option value="OPERATOR">Operator</option>
 </select>
 <button onclick="grantRole()">Grant Role</button>
+
+### Warning sobre contrato upgradeable
+
+```html
+<p>⚠️ Este contrato es upgradeable. La lógica puede cambiar en el futuro.</p>
