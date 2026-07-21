@@ -730,3 +730,9 @@ setInterval(() => {
 ```html
 <textarea id="description" placeholder="Descripción de la propuesta"></textarea>
 <button onclick="createProposal()">Crear Propuesta</button>
+
+### Claim de revenue en frontend
+
+```html
+<button onclick="claimRevenue()">Claim Revenue</button>
+<p>Tu share: <span id="share">0</span>%</p>
